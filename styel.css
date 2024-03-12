@@ -1,0 +1,143 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins,sans-serif';
+    box-sizing: border-box;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100wh;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#nav{
+
+    padding: 2rem;
+    text-align: center;   
+    background-color: rosybrown;
+    border: 3px solid black;
+    
+    
+}
+
+#nav a :hover{
+    color: darkviolet;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left:8rem;
+}
+    
+
+.pera{
+    margin-top: 2rem;
+    margin-left:9rem;
+ }
+
+.main_box{
+    /* border: 2px solid blue; */
+    height:83vh;
+    width: 100%;
+
+}
+
+.smallimg, .bigimg, .text{
+    display:inline-block;
+
+}
+.text{
+   
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 420px;
+    width: 350;
+    cursor: pointer;
+   
+}
+#pg pre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bigimg{
+    
+    margin-left:15rem;
+    height: 404px;
+    box-shadow: 0px 3px 15px rgb(113, 115, 119, 0.5);
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+.bigimg img:hover {
+    transform: scale(1.1);
+    
+}
+.smallimg{
+    height: 400px;
+    margin-left:8rem;
+    box-shadow: 0px 3px 15px rgb(113, 115, 119, 0.5);
+    cursor: pointer;
+    overflow-y: auto;
+
+      
+}
+
+
+.smallimg img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#quantity{
+    border: 2px solid black; 
+    height: 2rem;
+}
+
+.btm1{
+    background-color: grey;
+    height: 3rem;
+    width: 15rem;
+    color: rgb(10, 9, 9);
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btm1:hover {
+    background-color: rgb(235, 20, 92);
+    
+  }
+#btm2{
+    
+    background-color: grey;
+    height: 3rem;
+    width: 20rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#btm2:hover{
+    background-color: palevioletred;
+   }
+
+select {
+    background-color: white;
+    width: 15rem;
+    border-radius: 0.3rem;
+    height: 2rem;
+    border: 2px solid black;
+}
